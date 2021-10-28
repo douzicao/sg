@@ -29,7 +29,7 @@ else
 fi
 
 if [ -z $REPO_URL ]; then
-  REPO_URL=${GITHUBPROXY}https://github.com/cdle/sillyGirl.git
+  REPO_URL=${GITHUBPROXY}https://github.com/douzicao/sillyGirl.git
 fi
 
 
@@ -80,11 +80,9 @@ if [ ! -f $CODE_DIR/dev.go ]; then
 package main
 
 import (
-    _ "github.com/cdle/sillyGirl/develop/qinglong"
-    _ "github.com/cdle/sillyGirl/develop/jd_cookie"
-    _ "github.com/cdle/sillyGirl/im/qq"
-    _ "github.com/cdle/sillyGirl/im/wxmp"
-    _ "github.com/cdle/sillyGirl/im/tg"
+    _ "github.com/douzicao/sillyGirl/develop/qinglong"
+    _ "github.com/douzicao/sillyGirl/im/wxmp"
+    _ "github.com/douzicao/sillyGirl/im/tg"
 )
 EOF
 
