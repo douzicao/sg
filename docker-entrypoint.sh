@@ -34,7 +34,7 @@ fi
 
 
 if [ -z $EXTEND_REPO_URL ]; then
-  EXTEND_REPO_URL=${GITHUBPROXY}https://github.com/ufuckee/jd_cookie.git
+  EXTEND_REPO_URL=${GITHUBPROXY}https://github.com/douzicao/jd_cookie.git
 fi
 
 
@@ -81,6 +81,8 @@ package main
 
 import (
     _ "github.com/douzicao/sillyGirl/develop/qinglong"
+    _ "github.com/douzicao/sillyGirl/develop/jd_cookie"
+    _ "github.com/douzicao/sillyGirl/im/wx"
     _ "github.com/douzicao/sillyGirl/im/wxmp"
     _ "github.com/douzicao/sillyGirl/im/tg"
 )
