@@ -83,7 +83,6 @@ import (
     _ "github.com/douzicao/sillyGirl/develop/qinglong"
     _ "github.com/douzicao/sillyGirl/develop/jd_cookie"
     _ "github.com/douzicao/sillyGirl/im/wx"
-    _ "github.com/douzicao/sillyGirl/im/wxmp"
     _ "github.com/douzicao/sillyGirl/im/tg"
 )
 EOF
